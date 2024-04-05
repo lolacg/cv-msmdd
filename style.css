@@ -1,0 +1,122 @@
+/* Write some CSS below */
+
+body {
+background-color: #F7F9FC;
+color: #595F7B;
+font-size: 18px;
+font-family: "Poppins",serif;
+text-align :center;
+}
+
+h1,h2{
+    font-family: "Raleway",serif;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h2{
+font-size: 24px;
+color: rgba(188, 103, 67, 0.69);
+font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-beige { 
+    background-color: #f5f5dc;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 70px auto;
+    border-radius: 5px;
+    width: 1275px;
+}
+
+.card-food { 
+    background-color: #ECE2D0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 70px auto;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.card-video { 
+    background-color: #FFCDB2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 70px auto;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.card-sneakers { 
+    background-color: #F5F3BB;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 70px auto;
+    border-radius: 5px;
+    width: 300px;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid div{
+margin: 40px;
+}
+
+.card-follow { 
+    background-color: #FBFEF9;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 70px auto;
+    border-radius: 5px;
+    width: 1275px;
+}
+
+.list-inline li{
+    display: inline;
+    margin: 20px;
+    
+}
+
+.list-inline{
+    padding-left: 15px;
+}
+
+.list-inline i{
+    display: inline;
+    font-size: 27px;
+    margin: 70px auto;
+    padding: 17px;
+    color: white;
+
+}
+
+img {
+border-radius: 50%;
+height: 150px;
+object-fit :cover;
+}
+
+a {
+color: white;
+background-color: rgb(149, 144, 139);
+border-radius: 5px;
+padding: 15px 25px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+a:hover{
+    background-color: rgb(197, 165, 165);
+}
+
